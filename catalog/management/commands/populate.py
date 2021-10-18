@@ -15,7 +15,8 @@ from catalog.models import (Author, Book, Comment)
 from django.contrib.auth.models import User
 from faker import Faker
 from decimal import Decimal
-from library.settings import STATIC_PATH
+# define STATIC_PATH in settings.py
+from bookshop.settings import STATIC_PATH
 from PIL import Image, ImageDraw, ImageFont
 
 
