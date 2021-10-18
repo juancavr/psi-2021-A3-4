@@ -4,7 +4,7 @@ from django.test import TestCase
 
 ###################
 # You may modify the following variables
-from library.settings import BASE_DIR
+from bookshop.settings import BASE_DIR
 
 pathToProject = BASE_DIR
 from .models import Author as Author
