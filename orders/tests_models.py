@@ -7,7 +7,7 @@ from catalog.management.commands.populate import Command
 from .models import Order as Order
 from .models import OrderItem as OrderItem
 from catalog.models import Book as Book
-from library.settings import BASE_DIR
+from bookshop.settings import BASE_DIR
 pathToProject = BASE_DIR
 # Please do not modify anything below this line
 ###################
